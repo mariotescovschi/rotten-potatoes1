@@ -1,12 +1,10 @@
-import {createStackNavigator} from '@react-navigation/stack';
 import Home from '../Home';
 import {createBottomTabNavigator} from "@react-navigation/bottom-tabs";
 import Home2 from "../Home2";
 import Home1 from "../Home1";
 
-const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
-function AppNavigator() {
+function HomeNavigator() {
     return (
             <Tab.Navigator initialRouteName={"Home"}
                            screenOptions={{
@@ -27,4 +25,4 @@ function AppNavigator() {
     );
 }
 
-export default AppNavigator;
+export default HomeNavigator;

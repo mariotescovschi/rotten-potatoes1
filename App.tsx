@@ -1,11 +1,11 @@
 import { StyleSheet, Text, View } from 'react-native';
-import AppNavigator from "./navigation/AppNavigation";
+import AppNavigator from "./AppNavigation";
 import {NavigationContainer} from "@react-navigation/native";
 
 export default function App() {
   return (
       <NavigationContainer>
-    <AppNavigator/>
+        <AppNavigator/>
       </NavigationContainer>
   );
 }
